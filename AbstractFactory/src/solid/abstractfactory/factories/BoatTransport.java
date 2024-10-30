@@ -7,7 +7,7 @@ import solid.abstractfactory.landvehicles.ILandVehicle;
 import solid.abstractfactory.seacar.Boat;
 import solid.abstractfactory.seacar.IBoat;
 
-public class UberTransport implements ITransportFactory{
+public class BoatTransport implements ITransportFactory{
     @Override
     public ILandVehicle createTransportVehicle() {
         return new Car();

@@ -55,3 +55,9 @@ z
 JAbstractFactory/src/solid/abstractfactory/factories/NineNineTransport.java,8\b\8bc63ef695ca89f4c66bb231e5a874229af827c4
 n
 >AbstractFactory/src/solid/abstractfactory/app/Application.java,b\7\b7617e2cff2a71b6576fa03388a26b1ccdf145ec
+k
+;AbstractFactory/src/solid/abstractfactory/seacar/IBoat.java,f\f\ff4ec576e19f603103860afc9efcbac3df1c1bac
+j
+:AbstractFactory/src/solid/abstractfactory/seacar/Boat.java,f\4\f4f09e6a865a6ac4d7ce62340e7fe425768374c2
+v
+FAbstractFactory/src/solid/abstractfactory/factories/BoatTransport.java,4\4\447b7d504be45b92acb54f3ac336feccdac27e75
