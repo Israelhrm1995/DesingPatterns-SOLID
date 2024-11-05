@@ -1,17 +1,17 @@
 package br.com.builder.builders;
 
-import br.com.builder.cars.Truck;
+import br.com.builder.cars.Sport;
 import br.com.builder.components.CarType;
 import br.com.builder.components.Color;
 import br.com.builder.components.Engine;
 import br.com.builder.components.Transmission;
 
-public class TruckBuilder implements IBuilder{
-
+public class SportBuider implements IBuilder {
     private CarType carType;
     private int seats;
     private  Transmission transmission;
     private Engine engine;
+    private Color color;
 
     @Override
     public void setCarType(CarType carType) {
@@ -33,11 +33,11 @@ public class TruckBuilder implements IBuilder{
         this.engine = engine;
     }
 
-    @Override
-    public void setColor(Color color) {}
-
-    public Truck getResult(){
-        return new Truck(carType, seats, engine, transmission);
+    public void setColor(Color color) {
+        this.color = color;
     }
 
+    public Sport getResult(){
+        return new Sport(carType, seats, engine, transmission, color);
+    }
 }
